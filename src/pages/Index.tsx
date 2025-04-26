@@ -1,7 +1,7 @@
-
 import ShayariCard from "@/components/ShayariCard";
 import AudioShayari from "@/components/AudioShayari";
 import { Cherry } from "lucide-react";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const sampleShayaris = [
   {
@@ -35,9 +35,21 @@ const Index = () => {
             </h1>
             <Cherry className="h-8 w-8 text-cherry animate-pulse" />
           </div>
-          <p className="text-cherry-light/80 text-lg italic">
+          <p className="text-cherry-light/80 text-lg italic mb-6">
             Where words dance with emotions
           </p>
+          
+          {/* Profile Avatar */}
+          <div className="flex justify-center mb-8">
+            <Avatar className="w-32 h-32 border-4 border-cherry/50 hover:border-cherry transition-all duration-300">
+              <AvatarImage 
+                src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9" 
+                alt="Your Profile" 
+                className="object-cover"
+              />
+              <AvatarFallback className="bg-cherry/20 text-cherry">YP</AvatarFallback>
+            </Avatar>
+          </div>
         </div>
 
         {/* Shayari Grid */}
