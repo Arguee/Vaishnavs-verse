@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 interface ShayariCardProps {
@@ -13,7 +12,8 @@ const ShayariCard = ({ title, content }: ShayariCardProps) => {
         <CardTitle className="text-cherry text-lg font-normal">{title}</CardTitle>
       </CardHeader>
       <CardContent>
-        <p className="text-cherry-light/80 group-hover:text-cherry-light transition-colors duration-300">
+        {/* Applying white-space: pre-wrap to preserve line breaks and spaces */}
+        <p className="text-cherry-light/80 group-hover:text-cherry-light transition-colors duration-300 whitespace-pre-wrap">
           {content}
         </p>
       </CardContent>
