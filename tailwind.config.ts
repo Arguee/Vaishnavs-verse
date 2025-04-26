@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -9,19 +8,25 @@ export default {
     extend: {
       colors: {
         background: "#1A1F2C",
-        secondary: "#403E43",
-        accent: "#D4AF37",
+        secondary: "#4A3B4A",
+        accent: "#FFB7C5",
         gold: {
-          light: "#F4D03F",
-          DEFAULT: "#D4AF37",
-          dark: "#967D1A",
+          light: "#FFB7C5",
+          DEFAULT: "#FF99AC",
+          dark: "#E88A9A",
         },
-        card: "rgba(64, 62, 67, 0.5)",
+        card: "rgba(74, 59, 74, 0.5)",
+        cherry: {
+          light: "#FFD7E0",
+          DEFAULT: "#FFB7C5",
+          dark: "#FF99AC",
+        }
       },
       animation: {
         "gradient-x": "gradient-x 15s ease infinite",
         "gradient-y": "gradient-y 15s ease infinite",
         "gradient-xy": "gradient-xy 15s ease infinite",
+        "float": "float 6s ease-in-out infinite",
       },
       keyframes: {
         "gradient-y": {
@@ -53,6 +58,10 @@ export default {
             "background-size": "200% 200%",
             "background-position": "right center",
           },
+        },
+        float: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-10px)" },
         },
       },
     },

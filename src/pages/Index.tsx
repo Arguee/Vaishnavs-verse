@@ -1,6 +1,7 @@
 
 import ShayariCard from "@/components/ShayariCard";
 import AudioShayari from "@/components/AudioShayari";
+import { Cherry } from "lucide-react";
 
 const sampleShayaris = [
   {
@@ -26,9 +27,17 @@ const Index = () => {
     <div className="min-h-screen bg-background animate-gradient-xy bg-gradient-to-br from-background via-secondary to-background">
       <div className="container mx-auto px-4 py-8">
         {/* Logo Section */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl text-gold font-light mb-2">Shayari Haven</h1>
-          <p className="text-gray-400">Where words dance with emotions</p>
+        <div className="text-center mb-12 animate-float">
+          <div className="inline-flex items-center gap-3 mb-4">
+            <Cherry className="h-8 w-8 text-cherry animate-pulse" />
+            <h1 className="text-5xl md:text-6xl text-cherry font-light">
+              Shayari Haven
+            </h1>
+            <Cherry className="h-8 w-8 text-cherry animate-pulse" />
+          </div>
+          <p className="text-cherry-light/80 text-lg italic">
+            Where words dance with emotions
+          </p>
         </div>
 
         {/* Shayari Grid */}

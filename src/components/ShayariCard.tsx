@@ -8,12 +8,12 @@ interface ShayariCardProps {
 
 const ShayariCard = ({ title, content }: ShayariCardProps) => {
   return (
-    <Card className="bg-card backdrop-blur-lg border border-gold/20 hover:border-gold/40 transition-all duration-300 cursor-pointer group">
+    <Card className="bg-card backdrop-blur-lg border border-cherry/20 hover:border-cherry/40 transition-all duration-300 cursor-pointer group">
       <CardHeader>
-        <CardTitle className="text-gold text-lg font-normal">{title}</CardTitle>
+        <CardTitle className="text-cherry text-lg font-normal">{title}</CardTitle>
       </CardHeader>
       <CardContent>
-        <p className="text-gray-300 group-hover:text-white transition-colors duration-300">
+        <p className="text-cherry-light/80 group-hover:text-cherry-light transition-colors duration-300">
           {content}
         </p>
       </CardContent>
