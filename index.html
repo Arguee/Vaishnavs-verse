@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.gpteng.co https://*.firebaseio.com https://*.googleapis.com; style-src 'self' 'unsafe-inline'; img-src 'self' https://iili.io https://raw.githubusercontent.com data:; media-src 'self' https://raw.githubusercontent.com https://*.githubusercontent.com https://*.github.com; connect-src 'self' https://api.github.com https://raw.githubusercontent.com https://*.firebaseio.com https://*.googleapis.com wss://*.firebaseio.com https://*.firebase.com; font-src 'self' data:; frame-ancestors 'none';">
     <title>Vaishnav's Verse</title>
     <meta name="description" content="A soulful collection of Vaishnav's shayaris where emotions breathe and words find their voice. Explore poetry that connects the heart to the soul.">
 
@@ -13,21 +16,26 @@
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Vaishnav's Shayaris | Feelings Etched in Words">
-<meta property="og:description" content="Dive into Vaishnav’s world of emotions through soulful shayaris and heartfelt poems.">
+<meta property="og:description" content="Dive into Vaishnav's world of emotions through soulful shayaris and heartfelt poems.">
 <meta property="og:image" content="https://vaishnav.site"> <!-- Put your actual OG image URL -->
 <meta property="og:url" content="https://vaishnav.site/">
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Vaishnav's Shayaris | Feelings Etched in Words">
-<meta name="twitter:description" content="A journey through Vaishnav’s emotional poetry and shayaris, where every word whispers a story.">
+<meta name="twitter:description" content="A journey through Vaishnav's emotional poetry and shayaris, where every word whispers a story.">
 <meta name="twitter:image" content="https://vaishnav.site"> <!-- Put same OG image here -->
     </head>
 
   <body>
     <div id="root"></div>
     <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script 
+      src="https://cdn.gpteng.co/gptengineer.js" 
+      type="module" 
+      integrity="sha384-5QxYI59tTvD8J88SeXvP4yL3U0lW14QmE5i9vL0W0p0h2jq6h5u0K2Q0K2Q0K2Q0" 
+      crossorigin="anonymous"
+    ></script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
