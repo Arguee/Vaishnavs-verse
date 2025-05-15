@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+<h1 align="center">🌙 Vaishnav Verse</h1>
+<p align="center">🖋️ A soulful collection of shayaris and verses penned by Vaishnav</p>
 
-## Project info
+<div align="center">
+  <img src="https://img.shields.io/badge/Poetry-Online-lightpink?style=for-the-badge&logo=vercel" />
+  <img src="https://img.shields.io/badge/Made%20with-Love-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Built%20by-Vaishnav-blueviolet?style=for-the-badge" />
+</div>
 
-**URL**: https://lovable.dev/projects/78db459f-b4c0-4910-a0b0-e4d7da321439
+---
 
-## How can I edit this code?
+## ✨ About
 
-There are several ways of editing your application.
+**Vaishnav Verse** is a minimalistic poetry website where emotions meet code.  
+A personal space to share heartfelt **shayaris**, explore poetic expressions, and preserve every verse with care.
 
-**Use Lovable**
+Whether you're a poetry lover or a silent reader, this site brings you closer to the soul behind each word.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/78db459f-b4c0-4910-a0b0-e4d7da321439) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🔗 Live Website
 
-**Use your preferred IDE**
+🌐 [verse.vaishnav.site](https://verse.vaishnav.site)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠 Tech Stack
 
-Follow these steps:
+- ⚛️ **React.js** – Frontend Framework  
+- 🎨 **Tailwind CSS** – For beautiful & responsive design  
+- 🔥 **Firebase** – For admin authentication and shayari posting  
+- 🌐 **Netlify** – Deployment
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+- ✍️ Post & display original shayaris
+- 🔐 Admin panel for content management
+- 📱 Fully responsive design
+- 🌙 Clean, dark-themed aesthetic
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🧑‍💻 Author
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+**Vaishnav Dounde**  
+🌐 [vaishnav.site](https://vaishnav.site)  
+🐙 [GitHub @Arguee](https://github.com/Arguee)
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🤍 Support
 
-## What technologies are used for this project?
+If you enjoy the project, feel free to star ⭐ the repo or share your favorite shayari from the site!
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+> “Lafzon ki tasveer banayi hai yahaan,  
+>  Har ek dil ki dastaan chhupi hai yahaan...”  
+>  — *Vaishnav Verse*
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/78db459f-b4c0-4910-a0b0-e4d7da321439) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
