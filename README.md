@@ -56,9 +56,9 @@ If you enjoy the project, feel free to star ⭐ the repo or share your favorite 
 
 ---
 
-> “Lafzon ki tasveer banayi hai yahaan,  
->  Har ek dil ki dastaan chhupi hai yahaan...”  
->  — *Vaishnav Verse*
+> “Tujhe har pal dekhu, tu masroof kisi aur ke liye..,  
+>  Mai baya bhi kr lu apna dard, tujhe sajna kisi aur ke liye..”  
+>  — *Vaishnav*
 
 ---
 
